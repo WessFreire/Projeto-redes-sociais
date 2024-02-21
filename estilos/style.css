@@ -41,3 +41,23 @@ section#telefone{
     height: 468px;
     width: 263px;
 }
+
+#redes-sociais{
+    text-align: right;
+}
+
+#redes-sociais img{
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box; /* fazer a borda fazer parte da caixa*/
+}
+
+#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.678);
+    transform: translate(-3px, -3px); /* fazer o botão se mover ao passar o mouse em cima */
+    box-shadow: 5px 5px 10px black;
+    transition: transform 0.5s;
+
+}
